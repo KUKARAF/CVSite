@@ -124,12 +124,12 @@ body {
 
 
 .leftpane {
-  width: 40%;
-
-  height: 100%;
-  float: left;
-
+    width: 40%;
+    height: 100%;
+    float: left;
     border-collapse: collapse;
+    z-index:50;
+
 }
 
 
@@ -144,6 +144,7 @@ body {
 
 #textDisplay .item-title, #textEduDisplay .item-title{
   display: none;
+
 }
 
 #textDisplay .hiddenChild, #textEduDisplay .hiddenChild{
@@ -260,6 +261,10 @@ line-height:1;
   cursor: pointer; /* Cursor on hover */
 }
 
+.painTheBut{
+  height: 50px;
+  display: inline;
+}
 
 /* -------------------------------------------------------------------
  * ## links
@@ -1641,6 +1646,8 @@ input::-moz-focus-inner {
   letter-spacing: -0.03rem;
   margin-top: 0;
   margin-bottom: 2.8rem;
+  z-index:20;
+
 }
 
 .display-2 {
@@ -1659,6 +1666,8 @@ input::-moz-focus-inner {
   margin-top: 0;
   margin-bottom: 2rem;
   min-height: 20px;
+  z-index:50;
+
 }
 
 
